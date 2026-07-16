@@ -66,6 +66,15 @@ nav{
 .about{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
+    margin: auto;
+    padding: 40px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 40px;
 }
