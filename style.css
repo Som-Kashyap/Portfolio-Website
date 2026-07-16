@@ -23,3 +23,39 @@ nav{
     color: black;
     font-weight: 500 bold;
 }
+
+.hero {
+
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1{
+    font-size: 4rem;
+}
+
+.hero h2{
+    margin-top: 20px;
+}
+
+.hero p{
+    margin-top: 25px;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+.hero-buttons a{
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
