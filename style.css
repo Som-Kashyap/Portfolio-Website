@@ -10,6 +10,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding:20px 80px;
+
 }
 
 .nav-links{
@@ -77,4 +78,32 @@ nav{
     flex-direction: column;
     margin: auto;
     padding: 40px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 40px;
+}
+
+.particle{
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+
+.particle-stack, .particle-description, .particle-github{
+    margin-top: 10px;
+}
+
+.particle-github a{
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
 }
