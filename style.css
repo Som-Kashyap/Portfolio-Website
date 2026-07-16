@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 80px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500 bold;
+}
