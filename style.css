@@ -31,6 +31,7 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
+  
 }
 
 .hero-content {
@@ -54,8 +55,17 @@ nav{
     margin-top: 20px;
 }
 .hero-buttons a{
+    
     text-decoration: none;
     border: 2px solid;
     border-radius: 10px;
     padding: 5px;
+
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
