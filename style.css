@@ -108,15 +108,26 @@ nav{
     width: 200px;
     height: 300px;
     text-align: center;
+    text-shadow: 4px 10px 10px #9197AE;
+
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("resources/particle-playground.gif");
+    background-position: center;
+    background-size: cover;
 }
 
 .particle-stack, .particle-description, .particle-github{
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.particle h3{
+    font-weight: 900 bold;
 }
 
 .particle-github a{
     text-decoration: none;
     border: 2px solid;
     border-radius: 10px;
+    box-shadow: 4px 4px 15px #EFF6EE;
     padding: 5px;
+    background-color: #EFF6EE;
 }
