@@ -82,8 +82,8 @@ nav{
     justify-content: center;
     /* align-items: center; */
     flex-direction: column;
-    margin: auto;
-    padding: 40px;
+    margin-top: 20px;
+    padding-left: 40px;
 }
 
 .skills{
@@ -96,7 +96,6 @@ nav{
 .projects{
     display: flex;
     flex-direction: column;
-    margin: auto;
     padding: 40px;
 }
 
@@ -228,7 +227,7 @@ nav{
 
 .dsa{
 
-    margin: 40px;
+    margin-left: 40px;
 }
 
 .dsa-description{
@@ -257,4 +256,30 @@ nav{
 .dsa-buttons{
     display: flex;
     gap: 10px;
+}
+
+.contact{
+    margin-top: 20px;
+    text-align: center;
+    margin: 40px;
+}
+
+.contact-contents{
+    margin-top: 10px;
+}
+
+.contact-contents a{
+    text-decoration: none;
+    color: #9197AE;
+}
+
+.contact-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    
+}
+
+.website-stack {
+    margin: 10px;
 }
