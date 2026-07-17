@@ -25,4 +25,4 @@ It showcases the projects that i've worked on, with clear Tech Stack, brief desc
 ### Author
 Som Kashyap
 
-##### Built as a project for learning web-development
+##### Built as part of my Web Development learning journey.
