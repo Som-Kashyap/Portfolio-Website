@@ -46,8 +46,10 @@ nav{
 }
 
 .hero-content {
+    width: 90%;
     max-width: 700px;
     text-shadow: 4px 4px 10px black;
+    flex-shrink: 0;
 }
 
 .hero h1{
@@ -94,10 +96,9 @@ nav{
 }
 
 .projects{
-    display: flex;
-    flex-direction: column;
+
     padding: 40px;
-    flex-wrap: wrap;
+
 }
 
 .particle{
@@ -137,9 +138,12 @@ nav{
 }
 
 .project-contents{
-    display: flex;
-    gap: 20px;
-    justify-content: space-around;
+    display:flex;
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:30px;
 }
 
 .soldier {
@@ -287,4 +291,20 @@ nav{
 
 .website-stack {
     margin: 10px;
+}
+
+@media (max-width:768px){
+
+    nav{
+        padding:20px;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
 }
