@@ -170,14 +170,14 @@ nav{
     gap: 5px;
 }
 
-.particle-github a:hover, .expense-github a:hover, .soldier-github a:hover, .user-management-github a:hover, .hero-buttons a:hover, .dsa-buttons a:hover, .expense-demo a:hover, .particle-demo a:hover, .soldier-demo a:hover{
+.particle-github a:hover, .expense-github a:hover, .soldier-github a:hover, .user-management-github a:hover, .hero-buttons a:hover, .dsa-buttons a:hover, .expense-demo a:hover, .particle-demo a:hover, .soldier-demo a:hover, .user-management-demo a:hover{
 
     box-shadow: 4px 4px 10px #F02D3A;
     background-color: #273043;
     color: #EFF6EE;
 }
 
-.particle-github a:active, .expense-github a:active, .soldier-github a:active, .user-management-github a:active, .hero-buttons a:active, .dsa-buttons a:active, .soldier-demo a:active, .particle-demo a:active, .expense-demo a:active{
+.particle-github a:active, .expense-github a:active, .soldier-github a:active, .user-management-github a:active, .hero-buttons a:active, .dsa-buttons a:active, .soldier-demo a:active, .particle-demo a:active, .expense-demo a:active, .user-management-demo a:active{
     background-color: #F02D3A;
     color: #EFF6EE;
 }
@@ -294,7 +294,7 @@ nav{
 
 }
 
-.user-management-stack, .user-management-description, .user-management-github, .soldier-demo{
+.user-management-stack, .user-management-description, .user-management-github, .soldier-demo, .user-management-demo{
     margin-top: 20px;
 }
 
@@ -307,6 +307,20 @@ nav{
     box-shadow: 4px 4px 10px #EFF6EE;
 }
 
+.user-management-demo a{
+     text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #EFF6EE;
+    box-shadow: 4px 4px 10px #EFF6EE;
+}
+
+.user-management-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .dsa{
 
     margin-left: 40px;
