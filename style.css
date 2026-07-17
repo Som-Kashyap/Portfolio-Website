@@ -125,9 +125,9 @@ nav{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("resources/particle-playground.gif");
     background-position: center;
     background-size: cover;
-
+/* 
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
 
     transition-property: transform;
     transition-timing-function: ease;
@@ -135,7 +135,7 @@ nav{
     transition-delay: 0;
 }
 
-.particle-stack, .particle-description, .particle-github{
+.particle-stack, .particle-description, .particle-github, .particle-demo{
     margin-top: 20px;
 }
 
@@ -151,9 +151,26 @@ nav{
     padding: 5px;
     background-color: #EFF6EE;
 
+
 }
 
-.particle-github a:hover, .expense-github a:hover, .soldier-github a:hover, .user-management-github a:hover, .hero-buttons a:hover, .dsa-buttons a:hover{
+.particle-demo a{
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #EFF6EE;
+    padding: 5px;
+    background-color: #EFF6EE;
+}
+
+.particle-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.particle-github a:hover, .expense-github a:hover, .soldier-github a:hover, .user-management-github a:hover, .hero-buttons a:hover, .dsa-buttons a:hover, .expense-demo a:hover, .particle-demo a:hover{
 
     box-shadow: 4px 4px 10px #F02D3A;
     background-color: #273043;
@@ -224,6 +241,7 @@ nav{
 
 .expense-stack, .expense-description, .expense-github{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .expense-github a{
@@ -233,6 +251,22 @@ nav{
     padding: 5px;
     background-color: #EFF6EE;
     box-shadow: 4px 4px 10px #EFF6EE;
+}
+.expense-demo a{
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #EFF6EE;
+    box-shadow: 4px 4px 10px #EFF6EE;
+}
+
+.expense-buttons{
+    display: flex;
+    justify-content:space-evenly;
+    /* flex-wrap: wrap; */
+    gap: 5px;
+    flex-direction: column;
 }
 
 .user-management{
