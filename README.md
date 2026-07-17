@@ -12,7 +12,9 @@ It showcases the projects that i've worked on, with clear Tech Stack, brief desc
 - Contact section / footer: Contains Email and links to my socials
 
 ## Live Demo
+
 https://som-kashyap.github.io/Portfolio-Website/
+
 ---
 
 ## What I learned
