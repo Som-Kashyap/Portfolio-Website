@@ -165,9 +165,8 @@ nav{
 
 .particle-buttons{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 5px;
+    justify-content: center;
+    gap: 10px;
 }
 
 .particle-github a:hover, .expense-github a:hover, .soldier-github a:hover, .user-management-github a:hover, .hero-buttons a:hover, .dsa-buttons a:hover, .expense-demo a:hover, .particle-demo a:hover, .soldier-demo a:hover, .user-management-demo a:hover{
@@ -231,6 +230,12 @@ nav{
     box-shadow: 4px 4px 10px #EFF6EE;
 }
 
+.soldier-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 .expense{
     margin-top: 20px;
     padding: 10px;
@@ -272,10 +277,10 @@ nav{
 
 .expense-buttons{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     /* flex-wrap: wrap; */
-    gap: 5px;
-    flex-direction: column;
+    gap: 10px;
+    /* flex-direction: column; */
 }
 
 .user-management{
@@ -294,7 +299,7 @@ nav{
 
 }
 
-.user-management-stack, .user-management-description, .user-management-github, .soldier-demo, .user-management-demo{
+.user-management-stack, .user-management-description, .user-management-github, .soldier-demo, .user-management-demo, .expense-demo{
     margin-top: 20px;
 }
 
@@ -318,7 +323,7 @@ nav{
 
 .user-management-buttons{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 5px;
 }
 .dsa{
