@@ -231,10 +231,16 @@ nav{
     margin: 40px;
 }
 
+.dsa-description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .dsa-github a{
     text-decoration: none;
     color: #273043;
     border: 2px solid;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #EFF6EE; 
+    padding: 5px;
 }
