@@ -22,7 +22,11 @@ It showcases the projects that i've worked on, with clear Tech Stack, brief desc
 - Better understanding of responsiveness
 - Using @media to make the web-page suitable for smaller devices
 
+---
+
 ### Author
 Som Kashyap
+
+---
 
 ##### Built as part of my Web Development learning journey.
