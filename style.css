@@ -307,4 +307,7 @@ nav{
         gap:15px;
     }
 
+    .hero h1{
+        font-size: clamp(2.5rem, 8vw, 4rem);
+    }
 }
