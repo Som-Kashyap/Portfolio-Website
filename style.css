@@ -233,7 +233,7 @@ nav{
 
 .dsa-description{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .dsa-github a{
@@ -243,4 +243,18 @@ nav{
     border-radius: 10px;
     background-color: #EFF6EE; 
     padding: 5px;
+}
+
+.leetcode a{
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #EFF6EE;
+    color: #273043;
+}
+
+.dsa-buttons{
+    display: flex;
+    gap: 10px;
 }
