@@ -77,6 +77,9 @@ nav{
 
 .hero-buttons {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 .hero-buttons a{
     
@@ -169,14 +172,14 @@ nav{
     gap: 10px;
 }
 
-.particle-github a:hover, .expense-github a:hover, .soldier-github a:hover, .user-management-github a:hover, .hero-buttons a:hover, .dsa-buttons a:hover, .expense-demo a:hover, .particle-demo a:hover, .soldier-demo a:hover, .user-management-demo a:hover{
+.particle-github a:hover, .expense-github a:hover, .soldier-github a:hover, .user-management-github a:hover, .hero-buttons a:hover, .dsa-buttons a:hover, .expense-demo a:hover, .particle-demo a:hover, .soldier-demo a:hover, .user-management-demo a:hover, .array-vis-demo a:hover, .array-vis-github a:hover{
 
     box-shadow: 4px 4px 10px #F02D3A;
     background-color: #273043;
     color: #EFF6EE;
 }
 
-.particle-github a:active, .expense-github a:active, .soldier-github a:active, .user-management-github a:active, .hero-buttons a:active, .dsa-buttons a:active, .soldier-demo a:active, .particle-demo a:active, .expense-demo a:active, .user-management-demo a:active{
+.particle-github a:active, .expense-github a:active, .soldier-github a:active, .user-management-github a:active, .hero-buttons a:active, .dsa-buttons a:active, .soldier-demo a:active, .particle-demo a:active, .expense-demo a:active, .user-management-demo a:active, .array-vis-demo a:active, .array-vis-github a:active{
     background-color: #F02D3A;
     color: #EFF6EE;
 }
@@ -324,8 +327,69 @@ nav{
 .user-management-buttons{
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 }
+
+.array-vis{
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 200px;
+    text-align: center;
+    text-shadow: 4px 10px 10px #9197AE;
+
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)),url("resources/array-vis-background.gif");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.array-vis, .expense, .user-management, .particle, .soldier, .array-vis-demo, .array-vis-github, .user-management-demo, .user-management-github, .expense-demo, .expense-github, .particle-demo, .particle-github, .soldier-demo, .soldier-github, .hero-github, .hero-linkedin, .dsa-github, .leetcode{
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+}
+
+.array-vis:hover, .expense:hover, .particle:hover, .soldier:hover, .user-management:hover{
+      transform: scaleY(1.1);
+      transform: scaleX(1.1);
+      box-shadow: 5px 5px 10px #F02D3A;
+}
+
+.array-vis-demo:hover, .array-vis-github:hover, .expense-demo:hover, .expense-github:hover, .particle-demo:hover, .particle-github:hover, .soldier-demo:hover, .soldier-github:hover, .user-management-demo:hover, .user-management-github:hover, .dsa-github:hover, .leetcode:hover, .hero-github:hover, .hero-linkedin:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 10px #F02D3A;
+}
+
+.array-vis-stack{
+    margin-top: 20px;
+}
+
+.array-vis-description{
+    margin: 20px 0px;
+}
+
+.array-vis-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.array-vis-demo a, .array-vis-github a{
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #EFF6EE;
+    box-shadow: 4px 4px 10px #EFF6EE;
+
+}
+
 .dsa{
 
     margin-left: 40px;
