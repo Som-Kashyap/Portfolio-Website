@@ -80,6 +80,7 @@ nav{
     display: flex;
     justify-content: center;
     gap: 10px;
+    
 }
 .hero-buttons a{
     
@@ -89,7 +90,7 @@ nav{
     box-shadow: 4px 4px 20px white;
     background-color: #EFF6EE;
     padding: 5px;
-
+    cursor:grab;
 }
 
 .photo-class{
@@ -208,6 +209,7 @@ nav{
     box-shadow: 4px 4px 10px #F02D3A;
     background-color: #273043;
     color: #EFF6EE;
+    cursor: grab;
 }
 
 .particle-github a:active, .expense-github a:active, .soldier-github a:active, .user-management-github a:active, .hero-buttons a:active, .dsa-buttons a:active, .soldier-demo a:active, .particle-demo a:active, .expense-demo a:active, .user-management-demo a:active, .array-vis-demo a:active, .array-vis-github a:active{
