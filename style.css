@@ -266,6 +266,7 @@ nav{
 .soldier-download{
     margin-top: 10px;
 }
+
 /* .soldier-github a{
     text-decoration: none;
     border: 2px solid;
@@ -287,6 +288,7 @@ nav{
 .soldier-buttons{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
     filter: drop-shadow(0 4px 10px #F02D3A);
 }
