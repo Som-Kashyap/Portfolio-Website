@@ -80,9 +80,10 @@ nav{
     display: flex;
     justify-content: center;
     gap: 10px;
+    filter: drop-shadow(0px 4px 10px #F02D3A );
     
 }
-.hero-buttons a{
+/* .hero-buttons a{
     
     text-decoration: none;
     border: 2px solid;
@@ -91,7 +92,7 @@ nav{
     background-color: #EFF6EE;
     padding: 5px;
     cursor:grab;
-}
+} */
 
 .photo-class{
     display: flex;
@@ -117,11 +118,9 @@ nav{
 }
 
 .photo:hover{
-    transform:translateY(-10px);
-    box-shadow: 4px 4px 25px #F02D3A;
+    transform: scale(2.01) translateY(-10px);
+    filter: drop-shadow(4px 4px 0px #F02D3A);
     border-color: #273043;
-    border-radius: 50px;
-    border-width: 10px;
 }
 
 .about{
@@ -227,10 +226,10 @@ nav{
     cursor: grab;
 } */
 
-.particle-github a:active, .expense-github a:active, .soldier-github a:active, .user-management-github a:active, .hero-buttons a:active, .dsa-buttons a:active, .soldier-demo a:active, .particle-demo a:active, .expense-demo a:active, .user-management-demo a:active, .array-vis-demo a:active, .array-vis-github a:active{
+/* .particle-github a:active, .expense-github a:active, .soldier-github a:active, .user-management-github a:active, .hero-buttons a:active, .dsa-buttons a:active, .soldier-demo a:active, .particle-demo a:active, .expense-demo a:active, .user-management-demo a:active, .array-vis-demo a:active, .array-vis-github a:active{
     background-color: #F02D3A;
     color: #EFF6EE;
-}
+} */
 
 .project-contents{
     display:flex;
@@ -417,9 +416,11 @@ nav{
 }
 
 .array-vis:hover, .expense:hover, .particle:hover, .soldier:hover, .user-management:hover{
-      transform: translateY(-6px) scale(1.01);
-      box-shadow: 5px 5px 10px #F02D3A;
+      transform: translateY(6px) translateX(-3px) scale(1.15);
+      /* box-shadow: 5px 5px 10px #F02D3A; */
+       filter: drop-shadow(5px 4px 0px #F02D3A);
 }
+
 
 .array-vis-demo:hover, .array-vis-github:hover, .expense-demo:hover, .expense-github:hover, .particle-demo:hover, .particle-github:hover, .particle-download:hover, .soldier-demo:hover, .soldier-github:hover, .user-management-demo:hover, .user-management-github:hover, .dsa-github:hover, .leetcode:hover, .hero-github:hover, .hero-linkedin:hover{
     transform: translateY(-5px);
@@ -466,27 +467,28 @@ nav{
     margin-bottom: 20px;
 }
 
-.dsa-github a{
+/* .dsa-github a{
     text-decoration: none;
     color: #273043;
     border: 2px solid;
     border-radius: 10px;
     background-color: #EFF6EE; 
     padding: 5px;
-}
+} */
 
-.leetcode a{
+/* .leetcode a{
     text-decoration: none;
     border: 2px solid;
     border-radius: 10px;
     padding: 5px;
     background-color: #EFF6EE;
     color: #273043;
-}
+} */
 
 .dsa-buttons{
     display: flex;
     gap: 10px;
+    filter: drop-shadow(0px 4px 20px #F02D3A);
 }
 
 .border{
