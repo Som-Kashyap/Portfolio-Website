@@ -140,6 +140,13 @@ nav{
     padding: 40px;
 }
 
+.skills-languages, .skills-database, .skills-libraries, .skills-tools{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
 .projects{
 
     padding: 40px;
