@@ -118,7 +118,7 @@ nav{
 }
 
 .photo:hover{
-    transform: scale(2.01) translateY(-10px);
+    transform: scale(1.5) translateY(10px);
     filter: drop-shadow(4px 4px 0px #F02D3A);
     border-color: #273043;
 }
