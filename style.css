@@ -164,7 +164,7 @@ nav{
     text-align: center;
     text-shadow: 4px 10px 10px #9197AE;
 
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("resources/particle-playground.gif");
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("resources/particle-playground.gif");
     background-position: center;
     background-size: cover;
 /* 
@@ -231,6 +231,12 @@ nav{
     color: #EFF6EE;
 } */
 
+.particle-description{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+}
+
 .project-contents{
     display:flex;
     flex-wrap:wrap;
@@ -282,6 +288,11 @@ nav{
     box-shadow: 4px 4px 10px #EFF6EE;
 } */
 
+.soldier-description{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
 .soldier-buttons{
     display: flex;
     justify-content: center;
@@ -322,6 +333,11 @@ nav{
     box-shadow: 4px 4px 10px #EFF6EE;
 } */
 
+.expense-description{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
 
 .expense-buttons{
     display: flex;
@@ -385,7 +401,14 @@ nav{
     box-shadow: 4px 4px 10px #EFF6EE;
 } */
 
+.user-management-description{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
 .user-management-buttons{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -435,13 +458,17 @@ nav{
 
 .array-vis-description{
     margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
 }
 
 .array-vis-buttons {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     filter: drop-shadow(0 4px 10px #F02D3A);
 }
 
