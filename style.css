@@ -185,6 +185,12 @@ nav{
     font-weight: 900 bold;
 }
 
+.particle-tag{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
 /* .particle-github a{
     text-decoration: none;
     border: 2px solid;
@@ -265,6 +271,10 @@ nav{
 
 }
 
+.soldier h3{
+    margin-top: 20px;
+}
+
 .soldier-stack, .soldier-description, .soldier-github{
     margin-top: 20px;
 }
@@ -316,6 +326,10 @@ nav{
     background-position: center;
     background-size:cover;
 
+}
+
+.expense h3{
+    margin-top: 20px;
 }
 
 .expense-stack, .expense-description, .expense-github{
@@ -378,6 +392,10 @@ nav{
 
 }
 
+.user-management h3{
+    margin-top: 20px;
+}
+
 .user-management-stack, .user-management-description, .user-management-github, .soldier-demo, .user-management-demo, .expense-demo{
     margin-top: 20px;
 }
@@ -430,6 +448,10 @@ nav{
     background-position: center;
     background-size: cover;
 
+}
+
+.array-vis h3{
+    margin-top: 20px;
 }
 
 .array-vis, .expense, .user-management, .particle, .soldier, .array-vis-demo, .array-vis-github, .user-management-demo, .user-management-github, .expense-demo, .expense-github, .particle-demo, .particle-github,.particle-download, .soldier-demo, .soldier-github, .soldier-download, .hero-github, .hero-linkedin, .dsa-github, .leetcode{
@@ -519,18 +541,23 @@ nav{
     filter: drop-shadow(0px 4px 20px #F02D3A);
 }
 
-.border{
+/* .border{
     border: 2px solid #9197AE;
     margin-top: 20px;
-}
+} */
 .contact{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-align: center;
-    margin: 40px;
+    /* margin: 40px; */
+    border: 2px solid #171C27;
+    background-color: #1E2533;
+    margin-top: 40px;
+
 }
 
 .contact-contents{
     margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 .contact-contents a{
