@@ -231,10 +231,10 @@ nav{
     color: #EFF6EE;
 } */
 
-.particle-description{
-    display: flex;
-    flex-direction: column;
-    align-items:baseline;
+.particle-description ul{
+    
+    list-style-type: none;
+    text-align: left;
 }
 
 .project-contents{
@@ -288,10 +288,9 @@ nav{
     box-shadow: 4px 4px 10px #EFF6EE;
 } */
 
-.soldier-description{
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
+.soldier-description ul{
+    list-style-type: none;
+    text-align: left;
 }
 .soldier-buttons{
     display: flex;
@@ -333,10 +332,10 @@ nav{
     box-shadow: 4px 4px 10px #EFF6EE;
 } */
 
-.expense-description{
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
+.expense-description ul{
+    
+    list-style-type: none;
+    text-align: left;
 }
 
 .expense-buttons{
@@ -401,10 +400,10 @@ nav{
     box-shadow: 4px 4px 10px #EFF6EE;
 } */
 
-.user-management-description{
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
+.user-management-description ul{
+    list-style-type:none;
+    text-align: left;
+    /* padding-left: 20px; */
 }
 
 .user-management-buttons{
@@ -456,11 +455,11 @@ nav{
     margin-top: 20px;
 }
 
-.array-vis-description{
+.array-vis-description ul{
+   
+    list-style-type: none;
+    text-align: left;
     margin: 20px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items:baseline;
 }
 
 .array-vis-buttons {
