@@ -375,6 +375,12 @@ nav{
     filter: drop-shadow(0 4px 10px #F02D3A);
 }
 
+.expense-tag{
+    text-align: left;
+    font-style:oblique;
+    font-size: small;
+}
+
 .user-management{
     margin-top: 20px;
     padding: 10px;
