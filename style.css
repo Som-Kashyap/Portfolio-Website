@@ -587,6 +587,32 @@ nav{
     margin: 10px;
 }
 
+.certificates{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.decode-certificate{
+
+      margin-top: 20px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px black;
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 200px;
+    text-align: center;
+    text-shadow: 4px 10px 10px #9197AE;
+}
+
+.decode-contents ul{
+   list-style-type: none;
+    text-align: left;
+    margin: 20px 0px;
+}
+
 @media (max-width:768px){
 
     nav{
