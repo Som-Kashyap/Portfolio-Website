@@ -139,7 +139,7 @@ nav{
     padding: 40px;
 }
 
-.skills-languages, .skills-database, .skills-libraries, .skills-tools{
+.skills-languages,.skills-backend, .skills-database, .skills-libraries, .skills-tools{
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -150,6 +150,63 @@ nav{
 
     padding: 40px;
 
+}
+
+.carbon{
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px black;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 300px;
+    text-align: center;
+    text-shadow: 4px 10px 10px #9197AE;
+
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url("resources/carbon-picture.png");
+    background-position: center;
+    background-size: cover;
+/* 
+    display: flex;
+    flex-direction: column; */
+
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    transition-delay: 0;
+}
+
+.carbon-stack, .carbon-description, .carbon-github, .carbon-demo{
+    margin-top: 20px;
+}
+
+.carbon-description ul{
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+.carbon-buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    filter: drop-shadow(0 4px 10px #F02D3A);
+}
+
+.carbon h3{
+    font-weight: 900 bold;
+    /* margin-top: 20px; */
+}
+
+.carbon-tag{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: small;
 }
 
 .particle{
@@ -460,21 +517,21 @@ nav{
     margin-top: 20px;
 }
 
-.array-vis, .expense, .user-management, .particle, .soldier, .array-vis-demo, .array-vis-github, .user-management-demo, .user-management-github, .expense-demo, .expense-github, .particle-demo, .particle-github,.particle-download, .soldier-demo, .soldier-github, .soldier-download, .hero-github, .hero-linkedin,.hero-resume, .dsa-github, .leetcode, .decode-certificate, .adobe-certificate, .deloitte-certificate{
+.array-vis, .expense, .user-management, .particle, .soldier, .array-vis-demo, .array-vis-github, .user-management-demo, .user-management-github, .expense-demo, .expense-github, .particle-demo, .particle-github,.particle-download, .soldier-demo, .soldier-github, .soldier-download, .hero-github, .hero-linkedin,.hero-resume, .dsa-github, .leetcode, .decode-certificate, .adobe-certificate, .deloitte-certificate, .carbon, .carbon-github, .carbon-demo{
     transition-property: transform;
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0.1s;
 }
 
-.array-vis:hover, .expense:hover, .particle:hover, .soldier:hover, .user-management:hover{
+.array-vis:hover, .expense:hover, .particle:hover, .soldier:hover, .user-management:hover, .carbon:hover{
       transform: translateY(6px) translateX(-3px) scale(1.15);
       /* box-shadow: 5px 5px 10px #F02D3A; */
        filter: drop-shadow(5px 4px 0px #F02D3A);
 }
 
 
-.array-vis-demo:hover, .array-vis-github:hover, .expense-demo:hover, .expense-github:hover, .particle-demo:hover, .particle-github:hover, .particle-download:hover, .soldier-demo:hover, .soldier-github:hover,.soldier-download:hover, .user-management-demo:hover, .user-management-github:hover, .dsa-github:hover, .leetcode:hover, .hero-github:hover, .hero-linkedin:hover, .hero-resume:hover, .view-decode:hover, .view-adobe:hover, .view-deloitte:hover{
+.array-vis-demo:hover, .array-vis-github:hover, .expense-demo:hover, .expense-github:hover, .particle-demo:hover, .particle-github:hover, .particle-download:hover, .soldier-demo:hover, .soldier-github:hover,.soldier-download:hover, .user-management-demo:hover, .user-management-github:hover, .dsa-github:hover, .leetcode:hover, .hero-github:hover, .hero-linkedin:hover, .hero-resume:hover, .view-decode:hover, .view-adobe:hover, .view-deloitte:hover, .carbon-github:hover, .carbon-demo:hover{
     transform: translateY(-5px);
     filter: drop-shadow(0 4px 10px #F02D3A);
 }
